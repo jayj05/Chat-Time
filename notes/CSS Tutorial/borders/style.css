@@ -1,0 +1,18 @@
+h1 {
+    border-top-style:groove;
+    border-top-color:darkorange;
+    border-top-width:5px;
+
+    border-bottom-style:groove;
+    border-bottom-color:darkorange;
+    border-bottom-width:5px;
+}
+
+p {
+    border-style:ridge;
+    border-width:5px;
+    border-color:darkmagenta;
+    border-radius:7px;
+    /**Spacing between letters and border**/
+    padding:5px;
+}

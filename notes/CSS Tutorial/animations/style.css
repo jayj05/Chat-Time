@@ -1,0 +1,51 @@
+#box1 {
+    width: 250px;
+    height: 250px;
+    background-color: darkseagreen;
+    text-align: center;
+    font-size: 200px;
+
+    /* animation: slideRight;
+    animation-play-state: running;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-duration: 5s; */
+
+    /* duration  timing-function  delay  iteration-count  play-state  animation-name */
+    animation: 3s linear 0s infinite running rainbow;
+
+    
+}
+
+#box1:hover {
+    
+}
+
+/* Use @keyframes to define your animation. 
+   Then you will need a from{} which means where your animations will start
+   and you will also need a from{} which is your animation will end. 
+   The animation will be gradual transition from from{} to to{}
+*/
+
+@keyframes slideRight {
+    from{margin-left: 0%;}
+    to{margin-left: 100%;}
+}
+
+@keyframes myRotation {
+    10%{transform: rotateZ(360deg);}
+}
+
+@keyframes growUp {
+    50%{transform: scale(0.5, 0.5)}
+}
+
+@keyframes rainbow {
+    0%{background-color: red;}
+    20%{background-color: orange;}
+    40%{background-color: yellow;}
+    60%{background-color: green;}
+    80%{background-color: blue;}
+    100%{background-color: purple;}
+}

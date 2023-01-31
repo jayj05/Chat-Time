@@ -1,0 +1,29 @@
+body {
+  background-image: url("sunset-on-beach.jfif");
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+      /** Just having this linear gradient as is will cause the background to repeat itself over the whole screen. **/
+    /** Can give directional indicators for linear gradient **/
+    background: linear-gradient(to top,tomato, purple);
+    /** So we change the backgrounds repeat property, but now we have a whole bunch of whitespace on our screen **/
+    background-repeat: no-repeat;
+
+    /** To fix this we can stretch the background to dynamically scale with the screen size **/
+    /**background-attachment: fixed;**/
+}
+
+p {
+  /** Just having this linear gradient as is will cause the background to repeat itself over the whole screen. **/
+    /** Can give directional indicators for linear gradient **/
+    background: linear-gradient(to top,tomato, purple);
+    /** So we change the backgrounds repeat property, but now we have a whole bunch of whitespace on our screen **/
+    background-repeat: no-repeat;
+    
+    /** To fix this we can stretch the background to dynamically scale with the screen size **/
+    /**background-attachment: fixed;**/
+}

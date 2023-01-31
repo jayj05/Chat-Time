@@ -1,0 +1,50 @@
+a:link {
+    color:darkgoldenrod;
+}
+
+a:visited {
+    color: forestgreen;
+}
+
+a:active {
+    color: chartreuse
+}
+
+a:hover {
+    color: tomato;
+}
+
+button:hover {
+    background-color:blue;
+    color: white;
+}
+
+button:active {
+    background-color: tomato;
+    color: white;
+}
+
+/* li:nth-child(1) {
+    background-color: skyblue;
+} */
+
+/* li:nth-child(even) {
+    background-color: yellow;
+} */
+
+/* li:nth-child(odd) {
+    background-color: turquoise;
+} */
+
+/* 
+This will take every 4th child of the li element 
+
+li:nth-child(4n) {
+    background-color: paleturquoise;
+} */
+
+/* This will take every 5th child starting at 1 */
+li:nth-child(5n+1) {
+    background-color: palevioletred;
+}
+

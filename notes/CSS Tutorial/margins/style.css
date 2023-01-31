@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+}
+
+#box1 {
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background-color: blueviolet;
+
+    /*  margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+
+    margin: 50px; */
+
+    /* margin-left: 10%; */
+
+    /* Sticks all the way to the right of the screen
+    margin-left: auto; */
+
+    /*Keep element horizontally centered*/
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+#box2 {
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background-color: orangered;
+}

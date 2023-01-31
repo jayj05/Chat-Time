@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+    <!--Action will send the information to a page-->
+    <!--To transfer this data from client to server we have two methods: GET and POST-->
+    <!--The difference between the 2 is that GET carries the information appended to the URL, while POST carries information in a message body which is more secure-->
+    <form action="action_page.php" method="POST">
+        <!--Using div to treat each tag as a block level element-->
+        <div>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="John" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Appleseed">
+        </div>
+
+        <br>
+        
+        <div>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass" maxlength="12" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="jApple@example.com">
+        </div>
+
+
+        <br>
+
+        <div>
+            <label for="phone">Phone #:</label>
+            <input type="tel" id="phone" name="phone">
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="bdate">Date:</label>
+            <input type="date" id="bdate" name="bdate">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="quantity">quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="0" max="20">
+        </div>
+
+        <br>
+
+        <div>
+            <!--To have the radio buttons in the same group they must have the same name-->
+            <label for="title">title:</label>
+
+            <label for="Mr.">Mr.</label>
+            <input type="radio" name="title" value="Mr." id="Mr.">
+
+            <label for="Ms.">Ms.</label>
+            <input type="radio" name="title" value="Ms." id="Ms.">
+
+            <label for="PhD.">PhD.</label>
+            <input type="radio" name="title" value="PhD." id="PhD.">
+        </div>
+
+        <br>
+        
+        <div>
+            <label for="payment">payment</label>
+            <select id="payment" name="payment">
+    
+                <option>visa</option>
+                <option>mastercard</option>
+                <option>giftcard</option>
+
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="subscribe">Subscribe</label>
+            <input type="checkbox" id="subscribe" name="subscribe">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="reset">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+</body>
+</html>

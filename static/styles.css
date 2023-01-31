@@ -1,0 +1,48 @@
+body {
+    background-image: linear-gradient(greenyellow, skyblue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#introduction {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 500px;
+    height: 200px;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+    top: -200px;
+    position: absolute;
+    font-family: sans-serif;
+
+}
+
+p {
+    margin-top: 225px;
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+#getStarted {
+    width: 150px;
+    height: 50px;
+    margin-left: 175px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 2px solid;
+    border-color: greenyellow;
+    background-color: skyblue;
+    color: white;
+}
+
+#getStarted:hover {
+    background-color: greenyellow;
+    border-color: skyblue;
+}
