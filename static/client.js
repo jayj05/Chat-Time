@@ -1,5 +1,5 @@
 // Initializing socket connection on client side
-const socket = io("ws://192.168.1.186:5000");
+const socket = io("ws://"); // SERVER IP ADDRESS 
 
 // Automatically triggered when connection is made 
 socket.on("connect", () => {
